@@ -24,6 +24,36 @@ Developed and bootstraped with ❤ from [Graphiz Team](https://graphiz.in/).
 
 This file contains various environmet variables that you can configure.
 
+For project to build, **these files must exist with exact filename**:
+- `public/index.html` is the page tamplate
+- `src/index.jsx` is the JavaScript entry point
+
+You may create subdirectories inside src.
+
+## Avaliable Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+Runs the application in development mode.
+Open [http://localhost:5173](http://localhost:5173) to view it in browser.
+
+### `npm run build`
+
+Builds the application for production to the `dist` folder.
+
+## Installing Dependency
+
+You can install any dependencies (for example, React Router) with `npm`:
+```
+npm install --save react-router
+```
+
+Alternatively you may use `yarn`:
+```
+yarn add react-router
+```
+
 ## License
 
 MIT License
